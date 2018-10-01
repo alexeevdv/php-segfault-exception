@@ -1,0 +1,23 @@
+{
+  "name": "alexeevdv/php-segfault-exception",
+  "type": "library",
+  "description": "PHP exception which leads to segfault when not handled properly",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitry Alekseev",
+      "email": "mail@alexeevdv.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "alexeevdv\\": "src"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.3",
+    "codeception/codeception": "^2.5"
+  }
+}
