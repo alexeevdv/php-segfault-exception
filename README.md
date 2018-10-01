@@ -1,0 +1,1 @@
+# php-segfault-exception
