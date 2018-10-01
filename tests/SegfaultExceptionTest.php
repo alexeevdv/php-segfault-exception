@@ -7,7 +7,7 @@ class SegfaultExceptionTest extends \Codeception\Test\Unit
     public function testToString()
     {
         $exception = new SegfaultException;
-        $this->expectException('alexeevdv\SegfaultException');
+        $this->setExpectedException('alexeevdv\SegfaultException');
         $exception->__toString();
     }
 
