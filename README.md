@@ -2,10 +2,13 @@
 
 [![Build Status](https://travis-ci.org/alexeevdv/php-segfault-exception.svg?branch=master)](https://travis-ci.org/alexeevdv/php-segfault-exception) 
 [![codecov](https://codecov.io/gh/alexeevdv/php-segfault-exception/branch/master/graph/badge.svg)](https://codecov.io/gh/alexeevdv/php-segfault-exception)
+![PHP 5.4](https://img.shields.io/badge/PHP-5.4-green.svg) 
+![PHP 5.5](https://img.shields.io/badge/PHP-5.5-green.svg) 
 ![PHP 5.6](https://img.shields.io/badge/PHP-5.6-green.svg) 
 ![PHP 7.0](https://img.shields.io/badge/PHP-7.0-green.svg) 
 ![PHP 7.1](https://img.shields.io/badge/PHP-7.1-green.svg) 
 ![PHP 7.2](https://img.shields.io/badge/PHP-7.2-green.svg)
+![PHP 7.3](https://img.shields.io/badge/PHP-7.3-green.svg)
 
 
 PHP exception which leads to segfault when not handled properly.
