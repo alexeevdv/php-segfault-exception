@@ -6,19 +6,8 @@ php:
 - '7.0'
 - '7.1'
 - '7.2'
-
-matrix:
-  include:
-  - php: 7.3.0RC1
-    dist: xenial
-    sudo: required
-    addons:
-      apt:
-        packages:
-        - libzip4
-    script:
-    - vendor/bin/phpcs --standard=PSR2 --extensions=php src
-    - phpdbg -qrr vendor/bin/codecept run --coverage --coverage-xml
+- '7.3'
+- '7.4snapshot'
 
 install:
 - composer install --no-interaction
